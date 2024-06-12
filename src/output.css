@@ -906,4 +906,13 @@ video {
     display: block;
   }
 
-  .sm\:h-
+  .sm\:h-auto {
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:h-auto {
+    height: auto;
+  }
+}
